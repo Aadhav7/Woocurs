@@ -1,0 +1,14 @@
+/* Small custom styles; Bootstrap provides the main layout and components. */
+body { color: #202938; }
+.feature-panel {
+  background: #f5f7fb;
+  border: 1px solid #e5e9f0;
+  border-radius: 12px;
+  padding: 28px;
+}
+.feature-panel p { max-width: 760px; margin: 0 auto; color: #657084; }
+footer { color: #697386; font-size: .9rem; }
+.form-control:focus, .form-select:focus {
+  border-color: #86b7fe;
+  box-shadow: 0 0 0 .2rem rgba(13,110,253,.15);
+}
